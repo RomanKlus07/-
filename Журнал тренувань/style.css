@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Світлий фон */
+    color: #333; /* Темний текст */
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #4A90E2; /* Синій заголовок */
+}
+
+form {
+    margin-bottom: 20px;
+    background-color: #fff; /* Білий фон для форми */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Світло-сіра рамка */
+    border-radius: 5px; /* Закруглені кути */
+}
+
+button {
+    background-color: #4A90E2; /* Синій фон для кнопок */
+    color: white; /* Білий текст */
+    border: none;
+    border-radius: 5px; /* Закруглені кути */
+    padding: 10px 15px;
+    cursor: pointer; /* Зміна курсора при наведенні */
+    transition: background-color 0.3s; /* Плавний перехід */
+}
+
+button:hover {
+    background-color: #357ABD; /* Темніший синій при наведенні */
+}
+
+#workout-list {
+    list-style-type: none; /* Без маркерів */
+    padding: 0;
+}
+
+#workout-list li {
+    background-color: #fff; /* Білий фон для елементів списку */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px; /* Закруглені кути */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    display: flex; /* Використовуємо flexbox для вирівнювання елементів */
+    justify-content: space-between; /* Вирівнювання елементів по краях */
+    align-items: center; /* Вирівнювання по вертикалі */
+}
+
+.complete {
+    background-color: #5CB85C; /* Зелений фон для кнопки виконано */
+    color: white; /* Білий текст для кнопки виконано */
+}
+.about-section {
+    background-color: #e9f5ff; /* Світло-блакитний фон для секції */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    color: #4A90E2; /* Синій заголовок секції */
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Світло-сіра рамка */
+    border-radius: 5px; /* Закруглені кути */
+}
+
+.about-display {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666; /* Темно-сірий текст */
+}
